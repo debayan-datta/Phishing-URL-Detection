@@ -1,0 +1,18 @@
+ngrok config add-authtoken 2fRx8BCDUI8vZ7WMgYfzf0gEr3T_6jxYPsEgkRtebfs8vBZnZ
+ngrok http http://localhost:8501
+
+
+
+# login in ngrok first and see the token
+
+streamlit run app_ultimate.py
+
+ngrok config add-authtoken 2gmDAJTRu17TDLsnkWG3KVtFtAH_di7xuAqnYYjaZgzWEpJG
+ngrok http http://localhost:8080
+
+ngrok authtoken 2gmDAJTRu17TDLsnkWG3KVtFtAH_di7xuAqnYYjaZgzWEpJG
+ngrok http 8501
+
+
+
+
