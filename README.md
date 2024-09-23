@@ -1,4 +1,4 @@
-# Phishing URL Detection using Machine Learning
+# Phishing URL Detection
 
 This project explores the development and evaluation of various machine learning models to enhance the efficiency of phishing URL detection. Every URL is broken into several parts. Features are extracted from the URs which help ensuring whether an URL is phishing or not. Machine Learning techniques are applied to build an effective model for predicting the legitimacy of the website provided which is further deployed.
 It involves:
